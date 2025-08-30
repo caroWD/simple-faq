@@ -1,46 +1,36 @@
-# Astro Starter Kit: Basics
+<h1 align="center">Simple FAQ Page | devChallenges</h1>
 
-```sh
-npm create astro@latest -- --template basics
-```
+<div align="center">
+   Solution for a challenge <a href="https://devchallenges.io/challenge/simple-faq-challenge" target="_blank">Simple FAQ</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
+</div>
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+<div align="center">
+  <h3>
+    <a href="https://simple-faq-carowd.netlify.app">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/caroWD/simple-faq">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenge/simple-faq-challenge">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-## 🚀 Project Structure
+## Built with
 
-Inside of your Astro project, you'll see the following folders and files:
+- Semantic HTML5 markup
+- Flexbox
+- [Astro](https://vuejs.org/)
+- [Tailwind](https://tailwindcss.com/)
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+## Features
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
-## 🧞 Commands
+## Author
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- GitHub [@caoWD](https://github.com/caroWD)
