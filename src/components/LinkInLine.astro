@@ -1,0 +1,10 @@
+---
+interface Props {
+  href: string
+  tabIndex: number
+}
+
+const { href, tabIndex } = Astro.props as Props
+---
+
+<a class="text-azure-radiance-500 underline-offset-4 transition duration-200 hover:text-azure-radiance-700 hover:underline" href={href} tabindex={tabIndex}><slot /></a>

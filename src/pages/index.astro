@@ -1,11 +1,37 @@
 ---
-import Welcome from '../components/Welcome.astro';
+import Header from '../components/Header.astro';
 import Layout from '../layouts/Layout.astro';
+import Main from '../components/Main.astro';
+import Section from '../components/Section.astro';
+import LinkInLine from '../components/LinkInLine.astro';
+import Footer from '../components/Footer.astro';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout>
-	<Welcome />
+<Layout title='Simple FAQ | devChallenges.io' description='Simple FAQ page to test HTML and CSS syntax with Astro and improve my web development skills'>
+	<Header />
+	<Main>
+		<Section title='How can I track my order?'>
+			<p>You can track your order using the following steps:</p>
+			<ol class="flex flex-col gap-2 list-decimal list-outside pl-6">
+				<li>Go to the Order <LinkInLine href='#' tabIndex={1}>Tracking page</LinkInLine>.</li>
+				<li>Enter your order number and email address.</li>
+				<li>Click on the Track Order button to view the current status of your shipment.</li>
+			</ol>
+			<p>If you encounter any issues, please visit our <LinkInLine href='#' tabIndex={2}>Help Center</LinkInLine>.</p>
+		</Section>
+		<hr class="border-iron">
+		<Section title='What is your return policy?'>
+			<p>We offer a 30-day return policy on most items. Here are some key points:</p>
+			<ul class="flex flex-col gap-2 list-disc list-outside pl-6">
+				<li><strong>Items must be in original condition:</strong> Unworn, unused, and unwashed.</li>
+				<li><strong>Include original packaging and tags:</strong> All items should be returned with their original packaging and tags.</li>
+				<li><strong>Proof of purchase:</strong> A receipt or proof of purchase is required.</li>
+			</ul>
+			<p>For more detailed information, read our full <LinkInLine href='#' tabIndex={3}>Return Policy</LinkInLine>.</p>
+		</Section>
+	</Main>
+	<Footer />
 </Layout>
