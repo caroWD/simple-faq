@@ -6,15 +6,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://simple-faq-carowd.netlify.app">
+    <a href="https://simple-faq-carowd.netlify.app" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/caroWD/simple-faq">
+    <a href="https://github.com/caroWD/simple-faq" target="_blank">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenge/simple-faq-challenge">
+    <a href="https://devchallenges.io/challenge/simple-faq-challenge" target="_blank">
       Challenge
     </a>
   </h3>
